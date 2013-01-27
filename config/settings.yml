@@ -1,0 +1,6 @@
+txt_file_splitter: ','
+
+domain_columns: [{column: url_name}, {column: url_date}, {column: rate}]
+
+
+
