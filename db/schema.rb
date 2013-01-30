@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(:version => 20130126114555) do
 
   create_table "domains", :force => true do |t|
     t.string   "url_name",                             :null => false
-    t.string   "rate"
     t.date     "url_date"
+    t.string   "rate"
     t.datetime "created_at",                           :null => false
     t.datetime "updated_at",                           :null => false
     t.boolean  "marked_as_deleted", :default => false

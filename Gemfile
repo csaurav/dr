@@ -6,8 +6,11 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # gem 'sqlite3'
+#using mysql
+gem 'mysql2'
 
-gem 'pg'
+# gem 'pg'
+
 gem "rails_config"
 gem 'kaminari'
 gem 'thin'
